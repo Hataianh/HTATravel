@@ -1,0 +1,116 @@
+.lh {
+    width: 100%;
+    height: auto;
+    padding: 0% 5%;
+    float: left;
+}
+
+.lienhe {
+    height: auto;
+    top: 10%;
+    width: 100%;
+    color: rgba(0, 0, 0);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.lienhe h1 {
+    color: rgb(102, 102, 102);
+    text-align: left;
+    padding-top: 3%;
+    font-size: x-large;
+    line-height: 30px;
+    text-shadow: 0px 3px 10px rgb(102, 102, 102, 0.5);
+}
+
+.lienhe hr {
+    width: 60%;
+    background-color: rgb(170, 170, 170);
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.lienhe iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.Vietnhanxet {
+    width: 610px;
+    float: left;
+    font-size: 15px;
+    margin-right: 5%;
+    height: 400px;
+}
+
+.Vietnhanxet h2 {
+    color: rgb(102, 102, 102);
+    text-shadow: 0px 3px 10px rgb(102, 102, 102, 0.5);
+    text-align: left;
+    margin-top: 5%;
+    line-height: 30px;
+}
+
+.Vietnhanxet hr {
+    margin-bottom: 2%;
+    background-color: rgb(170, 170, 170);
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.Vietnhanxet p input {
+    width: 60%;
+    float: left;
+    color: black;
+    height: 25px;
+    margin: 1% 0%;
+}
+
+.Vietnhanxet textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    height: 150px;
+}
+
+.btn-guilienhe {
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(0, 88, 0, 0.8);
+    color: white;
+    border: none;
+    line-height: 17px;
+    margin: 1% 0%;
+}
+
+.btn-guilienhe:hover {
+    background-color: rgb(0, 88, 0);
+}
+
+.lhvct {
+    width: 350px;
+    height: 400px;
+    float: left;
+    padding: 1.2% 0%;
+    line-height: 25px;
+}
+
+.lhvct h2 {
+    color: rgb(102, 102, 102);
+    text-shadow: 0px 3px 10px rgb(102, 102, 102, 0.5);
+    text-align: left;
+    margin-top: 5%;
+    line-height: 30px;
+}
+
+.lhvct hr {
+    margin-bottom: 3%;
+    background-color: rgb(170, 170, 170);
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.lhvct a {
+    color: black;
+}
+
+.lhvct a:hover {
+    color: blue;
+    text-decoration: underline blue;
+}

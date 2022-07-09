@@ -1,0 +1,279 @@
+    .h1 {
+        color: rgb(102, 102, 102);
+        text-align: left;
+        font-size: x-large;
+        text-shadow: 0px 3px 3px rgb(102, 102, 102, 0.5);
+        margin-left: 5%;
+    }
+    
+    .h5 {
+        line-height: 18px;
+        margin: 0% 5%;
+        color: rgb(102, 102, 102);
+        text-align: left;
+        padding-top: 0.3%;
+        text-shadow: 0px 3px 3px rgb(102, 102, 102, 0.5);
+    }
+    
+    hr {
+        background-color: rgb(170, 170, 170);
+        color: rgba(255, 255, 255, 0.1);
+        text-align: left;
+        height: 1px;
+        width: 40%;
+        margin: 0.2% 5%;
+    }
+    
+    .tourvn {
+        width: 65%;
+        margin-left: 5%;
+        height: auto;
+        padding-right: 1%;
+        padding-top: 1%;
+        float: left;
+    }
+    
+    .tourvnmr {
+        border: 0px solid rgb(102, 102, 102, 0.1);
+        width: 257px;
+        margin-right: 1.5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        height: 240px;
+        float: left;
+        position: relative;
+        box-shadow: 5px 5px 5px rgb(102, 102, 102, 0.5);
+    }
+    
+    .tourvnmr img {
+        position: absolute;
+        height: 70%;
+        width: 100%;
+        padding-left: -1px;
+        float: left;
+    }
+    
+    .sale {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 50px solid rgba(255, 0, 0, 0.7);
+        z-index: 30;
+        margin-left: 76%;
+        text-align: center;
+    }
+    
+    .sale b {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        margin: -40px -15px;
+        text-align: center;
+    }
+    
+    .texttourvn {
+        background-color: rgba(202, 202, 202, 0.2);
+        height: 30%;
+        width: 100%;
+        text-align: left;
+        margin-top: 168px;
+        position: absolute;
+        padding: 3%;
+    }
+    
+    .texttourvn p {
+        color: rgba(0, 0, 0, 0.7);
+        line-height: 17px;
+        font-weight: bolder;
+        font-size: 13px;
+        position: absolute;
+        float: left;
+        text-shadow: 0px 2px 2px rgb(102, 102, 102, 0.5);
+    }
+    
+    .texttourvn hr {
+        background-color: rgb(170, 170, 170);
+        color: rgba(255, 255, 255, 0.1);
+        text-align: center;
+        height: 0.1px;
+        width: 100%;
+        margin-top: 14%;
+        float: left;
+        margin-left: 0%;
+    }
+    
+    .texttourvn h3 {
+        margin-top: 1%;
+        margin-right: 5%;
+        float: left;
+        color: rgb(0, 153, 255);
+        text-shadow: 1px 1px 1px rgb(0, 153, 255, 0.3);
+    }
+    
+    .texttourvn h5 {
+        margin-top: 10%;
+        color: red;
+        text-decoration: red line-through;
+        text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.2);
+    }
+    
+    .texttourvn p:hover {
+        color: rgb(0, 153, 255);
+        text-shadow: 1px 1px 1px rgb(0, 153, 255, 0.1);
+    }
+    
+    .tourvn a.hovertext {
+        text-decoration: none !important;
+        text-align: center;
+    }
+    
+    .tourvn a.hovertext::after {
+        content: attr(title);
+        position: absolute;
+        left: 0;
+        bottom: 30%;
+        padding: 0.5em;
+        width: 10px;
+        height: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        text-decoration: none !important;
+        color: #fff;
+        opacity: 0;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -o-transition: 0.4s;
+        transition: 0.4s;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 150px;
+    }
+    
+    .tourvn a.hovertext:hover::after,
+    .tourvn a.hovertext:focus::after {
+        opacity: 0.8;
+        width: 237px;
+        height: 148px;
+    }
+    
+    .ttdlVN {
+        float: left;
+        width: 250px;
+        height: auto;
+        margin-top: 200px;
+        font-size: 13px;
+        line-height: 18px;
+        margin-left: 5%;
+    }
+    
+    .h2 {
+        line-height: 18px;
+        margin: 2% 3%;
+        color: rgb(102, 102, 102);
+        text-align: left;
+        text-shadow: 0px 2px 2px rgb(102, 102, 102, 0.5);
+    }
+    
+    .ttdlVNmr {
+        height: 70px;
+        width: 100%;
+        background-color: rgba(238, 238, 238, 0.5);
+        box-shadow: 3px 3px 3px rgb(102, 102, 102, 0.5);
+    }
+    
+    .ttdlVNmr:hover {
+        background-color: rgba(238, 238, 238);
+    }
+    
+    .ttdlVNmr img {
+        width: 80px;
+        height: 60px;
+        float: left;
+        margin: 2%;
+    }
+    
+    .ttdlVNmr p {
+        margin: 5%;
+        padding-top: 1%;
+        color: rgb(58, 58, 58);
+    }
+    
+    .ttdlVNmr p:hover {
+        color: rgb(39, 39, 189);
+        text-decoration: underline rgb(39, 39, 189);
+    }
+    
+    .backgrounddknt {
+        background-color: tomato;
+        background-size: 100% 350px;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 100%;
+        height: 350px;
+        z-index: 0;
+        opacity: 0.4;
+        margin-top: 2%;
+        float: left;
+    }
+    
+    #dkbox {
+        position: absolute;
+        background: #d8d8d880;
+        border: 2px solid #e8e8e8;
+        padding: 1.5% 5%;
+        width: 50%;
+        margin: 12% 25%;
+    }
+    
+    input:focus::-webkit-input-placeholder {
+        color: rgb(102, 102, 102);
+    }
+    
+    input:focus:-moz-placeholder {
+        color: rgb(102, 102, 102);
+    }
+    
+    input:focus::-moz-placeholder {
+        color: rgb(102, 102, 102);
+    }
+    
+    #dkbox input {
+        outline: none;
+    }
+    
+    #dkbox input[type="text"] {
+        border: 1px solid #e8e8e8;
+        background: no-repeat 10px 6px #fff;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #fff;
+        font: bold 12px Arial, Helvetica, Sans-serif;
+        color: #414141;
+        width: 65%;
+        padding: 8px 15px 8px 30px;
+    }
+    
+    #button-submit {
+        background: #6A6F75;
+        border-width: 0px;
+        padding: 9px 0px;
+        width: 23%;
+        cursor: pointer;
+        font: bold 12px Arial, Helvetica;
+        color: #fff;
+        text-shadow: 0 1px 0 #555;
+    }
+    
+    #button-submit:hover {
+        background: #000000;
+    }
+    
+    #button-submit:active {
+        background: #5b5d60;
+        outline: none;
+    }
+    
+    #button-submit::-moz-focus-inner {
+        border: 0;
+    }

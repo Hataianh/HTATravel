@@ -1,0 +1,393 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+@media only screen and (max-width:600px) {
+    /* For mobile phones: */
+    .col-m-1 {
+        width: 8.33%;
+    }
+    .col-m-2 {
+        width: 16.66%;
+    }
+    .col-m-3 {
+        width: 25%;
+    }
+    .col-m-4 {
+        width: 33.33%;
+    }
+    .col-m-5 {
+        width: 41.66%;
+    }
+    .col-m-6 {
+        width: 50%;
+    }
+    .col-m-7 {
+        width: 58.33%;
+    }
+    .col-m-8 {
+        width: 66.66%;
+    }
+    .col-m-9 {
+        width: 75%;
+    }
+    .col-m-10 {
+        width: 83.33%;
+    }
+    .col-m-11 {
+        width: 91.66%;
+    }
+    .col-m-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.divmenu {
+    width: 100%;
+    height: 61px;
+    margin-bottom: 1%;
+    float: left;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.fullmenu {
+    width: 100%;
+    height: 61px;
+    background-color: #154054;
+    float: left;
+    z-index: 100;
+    position: fixed;
+}
+
+.menu {
+    float: left;
+    background-color: #154054;
+    width: 57%;
+    font-size: 12px;
+    height: 61px;
+    z-index: 100;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul {
+    background-color: #154054;
+    list-style-type: none;
+    z-index: 100;
+}
+
+#menu>ul>li {
+    display: inline-block;
+    width: 110px;
+    position: relative;
+    font-size: 14;
+    line-height: 60px;
+    text-align: center;
+    z-index: 100;
+}
+
+#menu ul li a:hover {
+    color: rgba(162, 255, 232, 0.5);
+    font-size: 13px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+}
+
+#menu ul li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    font-size: 14;
+    padding-left: 15px;
+    line-height: 30px;
+    width: 200px;
+    text-align: left;
+    position: relative;
+}
+
+.submenu1 {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    z-index: 100;
+}
+
+.submenu>li:hover .submenu1 {
+    display: block;
+}
+
+.submenu2 {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    z-index: 100;
+}
+
+.submenu1>li:hover .submenu2 {
+    display: inline-block;
+}
+
+.logo {
+    height: 60px;
+    width: 17%;
+    background-color: #154054;
+    float: left;
+}
+
+.logo img {
+    height: 90px;
+    width: 180px;
+    padding-left: 10%;
+    margin-top: -14px;
+    z-index: 100;
+}
+
+.search {
+    height: 60px;
+    width: 26%;
+    background-color: #154054;
+    float: left;
+}
+
+.box {
+    height: 60px;
+    background-color: #154054;
+    border-radius: 30px;
+    display: flex;
+    justify-content: left;
+    padding-left: 0%;
+    align-items: center;
+}
+
+.search input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 0px;
+    transition: 0.8s ease;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.search input::placeholder {
+    color: rgb(255, 246, 234);
+    opacity: 0.3;
+}
+
+.searchicon {
+    color: whitesmoke;
+    text-align: left;
+    width: 80px;
+    font-size: 12px;
+}
+
+.box:hover input {
+    width: 150px;
+    margin: 0 20px;
+    border-bottom: 1px solid red;
+}
+
+input:focus {
+    width: 200px;
+    margin: 0 20px;
+    border-bottom: 1px solid red;
+}
+
+.footer {
+    background-color: rgb(143, 143, 143);
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    float: left;
+    margin-top: 1%;
+}
+
+.footerborder {
+    width: 420px;
+    height: 100%;
+    padding: 2% 3%;
+    float: left;
+}
+
+.footerborder a:hover {
+    color: blue;
+    text-decoration: underline blue;
+}
+
+.iconlh a {
+    color: rgb(38, 92, 253);
+    font-size: xx-large;
+    padding: 0% 3%;
+}
+
+.iconlh a:hover {
+    color: blue;
+    font-size: 35px;
+}
+
+.footer p {
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+
+.footer p a {
+    color: white;
+}
+
+#footer h2 {
+    text-transform: uppercase;
+}
+
+.copyright {
+    float: left;
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    color: white;
+    padding: 2% 3%;
+    line-height: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dautrang {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #154054;
+    margin: 43% 95%;
+    float: right;
+    position: fixed;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 10px 15px;
+    z-index: 1000;
+    opacity: 0.7;
+}
+
+.dautrang i {
+    color: white;
+    padding-top: 3px;
+}
+
+.dautrang:hover {
+    background-color: teal;
+    opacity: 1;
+}

@@ -1,0 +1,142 @@
+.tt {
+    width: 100%;
+    height: auto;
+    padding: 0% 5%;
+}
+
+.tintuc {
+    height: auto;
+    float: left;
+    width: 72%;
+    color: rgba(0, 0, 0);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.tintuc hr {
+    width: 60%;
+    background-color: rgb(170, 170, 170);
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.tintuc h1 {
+    color: rgb(102, 102, 102);
+    text-align: left;
+    padding-top: 3%;
+    font-size: x-large;
+    line-height: 30px;
+    text-shadow: 0px 3px 10px rgb(102, 102, 102, 0.5);
+}
+
+.tintucmr {
+    width: 800px;
+    height: 200px;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.tintucmr h3 {
+    margin: 3% 0%;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 1px rgb(102, 102, 102, 0.5);
+}
+
+.tintucmr h3:hover,
+.tintucmr p a:hover {
+    color: blue;
+    text-decoration: underline blue;
+}
+
+p {
+    font-size: 14px;
+}
+
+.tintucmr i {
+    color: rgb(102, 102, 102);
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.tintucmrimg {
+    border: 0px solid rgb(0, 0, 0);
+    height: 100%;
+    width: 250px;
+    float: left;
+    margin-right: 2%;
+    overflow: hidden;
+    transition: ease 0.4s;
+}
+
+.tintucmrimg img {
+    height: 100%;
+    width: 250px;
+    transition: ease 0.4s;
+}
+
+.tintucmrimg img:hover {
+    transform: scale(1.2);
+    opacity: 0.9;
+}
+
+.tourdltop {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-top: 300px;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 5%;
+}
+
+.h2 {
+    line-height: 18px;
+    margin: 2% 3%;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    text-shadow: 0px 2px 2px rgb(102, 102, 102, 0.5);
+}
+
+.tourdltopmr {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(238, 238, 238, 0.5);
+    box-shadow: 3px 3px 3px rgb(102, 102, 102, 0.5);
+}
+
+.tourdltopmr:hover {
+    background-color: rgba(238, 238, 238);
+}
+
+.tourdltopmr img {
+    width: 80px;
+    height: 70px;
+    float: left;
+    margin: 2%;
+}
+
+.tourdltopmr p {
+    font-weight: bolder;
+    margin: 5%;
+    font-size: 13px;
+    padding-top: 1%;
+    color: rgb(58, 58, 58);
+}
+
+.tourdltopmr p:hover {
+    color: rgb(39, 39, 189);
+}
+
+.tourdltopmr h3 {
+    margin-top: -4%;
+    margin-right: 5%;
+    float: left;
+    color: rgb(0, 153, 255);
+    text-shadow: 1px 1px 1px rgb(0, 153, 255, 0.3);
+}
+
+.tourdltopmr h5 {
+    margin-top: -4%;
+    color: red;
+    text-decoration: red line-through;
+    text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.2);
+}

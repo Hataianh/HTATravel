@@ -1,0 +1,423 @@
+.h1 {
+    color: rgb(102, 102, 102);
+    padding-left: 1%;
+    text-align: left;
+    font-size: x-large;
+    text-shadow: 0px 3px 3px rgb(102, 102, 102, 0.5);
+}
+
+.h5 {
+    line-height: 18px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    padding-top: 0.3%;
+    padding-left: 1%;
+    text-shadow: 0px 3px 3px rgb(102, 102, 102, 0.5);
+}
+
+hr {
+    background-color: rgb(170, 170, 170);
+    color: rgba(255, 255, 255, 0.1);
+    text-align: left;
+    height: 1px;
+    width: 60%;
+    margin-top: 0.2%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.dd {
+    width: 65%;
+    height: auto;
+    padding-top: 2%;
+    margin-left: 5%;
+    float: left;
+}
+
+.ddytmr {
+    border: 0px solid rgb(102, 102, 102, 0.1);
+    width: 262px;
+    margin: 1% 0.7%;
+    height: 200px;
+    float: left;
+    position: relative;
+    box-shadow: 5px 5px 5px rgb(102, 102, 102, 0.5);
+}
+
+.ddytmr img {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    padding-left: -1px;
+    float: left;
+}
+
+.text {
+    background-color: rgba(202, 202, 202, 0.2);
+    height: 20%;
+    width: 100%;
+    color: rgb(102, 102, 102, 0.7);
+    text-align: center;
+    margin-top: 160px;
+    line-height: 45px;
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    text-shadow: 0px 3px 10px rgb(102, 102, 102, 0.2);
+}
+
+.text:hover {
+    color: rgb(117, 117, 117);
+    text-shadow: 0px 3px 10px rgb(102, 102, 102, 0.3);
+    background-color: rgb(202, 202, 202, 0.35);
+}
+
+.dd a.hovertext {
+    text-decoration: none !important;
+    text-align: center;
+}
+
+.dd a.hovertext::after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    padding: 0.5em;
+    width: 0%;
+    height: 144px;
+    background: rgba(0, 0, 0, 0.5);
+    text-decoration: none !important;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160px;
+}
+
+.dd a.hovertext:hover::after,
+.dd a.hovertext:focus::after {
+    opacity: 0.8;
+    width: 246px;
+    height: 144px;
+}
+
+.toursale {
+    width: 65%;
+    height: auto;
+    padding-top: 2%;
+    margin-left: 5%;
+    float: left;
+}
+
+.toursalemr {
+    border: 0px solid rgb(102, 102, 102, 0.1);
+    width: 394px;
+    margin: 1%;
+    height: 350px;
+    float: left;
+    position: relative;
+    box-shadow: 5px 5px 5px rgb(102, 102, 102, 0.5);
+}
+
+.toursalemr img {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    padding-left: -1px;
+    float: left;
+}
+
+.sale {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 60px solid rgba(255, 0, 0, 0.7);
+    z-index: 30;
+    margin-left: 81%;
+    text-align: center;
+}
+
+.sale b {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin: -45px -15px;
+    text-align: center;
+}
+
+.texttoursale {
+    background-color: rgba(202, 202, 202, 0.2);
+    height: 30%;
+    width: 100%;
+    text-align: left;
+    margin-top: 245px;
+    position: absolute;
+    padding: 3%;
+}
+
+.texttoursale p {
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 22px;
+    font-weight: bolder;
+    font-size: 15px;
+    position: absolute;
+    float: left;
+    text-shadow: 0px 2px 2px rgb(102, 102, 102, 0.5);
+}
+
+.texttoursale hr {
+    background-color: rgb(170, 170, 170);
+    color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    height: 0.1px;
+    width: 100%;
+    margin-top: 12%;
+    float: left;
+    margin-left: 0%;
+}
+
+.texttoursale h2 {
+    margin-top: 2%;
+    margin-right: 5%;
+    float: left;
+    color: rgb(0, 153, 255);
+    text-shadow: 1px 1px 1px rgb(0, 153, 255, 0.3);
+}
+
+.texttoursale h4 {
+    margin-top: 14%;
+    color: red;
+    text-decoration: red line-through;
+    text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.2);
+}
+
+.texttoursale p:hover {
+    color: rgb(0, 153, 255);
+    text-shadow: 1px 1px 1px rgb(0, 153, 255, 0.1);
+}
+
+.toursale a.hovertext {
+    text-decoration: none !important;
+    text-align: center;
+}
+
+.toursale a.hovertext::after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    bottom: 30%;
+    padding: 0.5em;
+    width: 10px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    text-decoration: none !important;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 230px;
+}
+
+.toursale a.hovertext:hover::after,
+.toursale a.hovertext:focus::after {
+    opacity: 0.8;
+    width: 374px;
+    height: 225px;
+}
+
+.tour {
+    width: 65%;
+    height: auto;
+    padding-top: 2%;
+    margin-left: 5%;
+    float: left;
+}
+
+.tourmr {
+    width: 820px;
+    height: 200px;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.tourmr h3 {
+    margin: 3% 0%;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 1px rgb(102, 102, 102, 0.5);
+}
+
+.tourmr h3:hover,
+.tourmr p a:hover {
+    color: blue;
+    text-decoration: underline blue;
+}
+
+.tourmr i {
+    color: rgb(102, 102, 102);
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.tourmrimg {
+    border: 0px solid rgb(0, 0, 0);
+    height: 100%;
+    width: 250px;
+    float: left;
+    margin-right: 2%;
+    overflow: hidden;
+    transition: ease 0.4s;
+}
+
+.tourmrimg img {
+    height: 100%;
+    width: 250px;
+    transition: ease 0.4s;
+}
+
+.tourmrimg img:hover {
+    transform: scale(1.2);
+    opacity: 0.9;
+}
+
+.ttdltop {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-top: 150px;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 5%;
+}
+
+.h2 {
+    line-height: 18px;
+    margin: 2% 3%;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    text-shadow: 0px 2px 2px rgb(102, 102, 102, 0.5);
+}
+
+.ttdltopmr {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(238, 238, 238, 0.5);
+    box-shadow: 3px 3px 3px rgb(102, 102, 102, 0.5);
+}
+
+.ttdltopmr:hover {
+    background-color: rgba(238, 238, 238);
+}
+
+.ttdltopmr img {
+    width: 80px;
+    height: 60px;
+    float: left;
+    margin: 2%;
+}
+
+.ttdltopmr p {
+    margin: 5%;
+    padding-top: 1%;
+    color: rgb(58, 58, 58);
+}
+
+.ttdltopmr p:hover {
+    color: rgb(39, 39, 189);
+    text-decoration: underline rgb(39, 39, 189);
+}
+
+.rightall {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-top: 200px;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 5%;
+}
+
+.rightall_lh {
+    text-align: center;
+    border: 0.5px solid gray;
+    height: auto;
+    width: 100%;
+    background-color: rgba(238, 238, 238, 0.5);
+    box-shadow: 3px 3px 3px rgb(102, 102, 102, 0.5);
+}
+
+.h3 {
+    border: 1px solid cornflowerblue;
+    padding: 7px;
+    width: 100%;
+    height: 35px;
+    background-color: cornflowerblue;
+    float: left;
+    text-align: left;
+    color: cornsilk;
+}
+
+.rightall_lh img {
+    height: 67px;
+    width: 115px;
+    text-align: center;
+}
+
+.rightall_lh p {
+    line-height: 25px;
+    color: rgb(58, 58, 58);
+}
+
+.btn-contact {
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(100, 0, 0);
+    border: none;
+    line-height: 17px;
+    margin: 5% 30%;
+    border-radius: 3px;
+}
+
+.btn-contact a {
+    color: cornsilk;
+}
+
+.btn-contact a i {
+    font-size: x-small;
+    padding: 0px 3px;
+}
+
+.btn-contact:hover {
+    background-color: rgb(0, 88, 0);
+}
+
+.rightall_why {
+    margin-top: 15px;
+    text-align: center;
+    border: 0.5px solid gray;
+    height: auto;
+    width: 100%;
+    background-color: rgba(238, 238, 238, 0.5);
+    box-shadow: 3px 3px 3px rgb(102, 102, 102, 0.5);
+}
+
+.rightall_why ul {
+    padding-left: 30px;
+    margin-top: 40px;
+    line-height: 30px;
+    color: rgb(58, 58, 58);
+}
+
+.rightall_why ul li {
+    text-align: left;
+}
